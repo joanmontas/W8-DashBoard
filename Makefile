@@ -4,11 +4,11 @@ output: main.o linklist.o widget.o
 main.o: main.c
 	gcc -c main.c
 
-widget.o: dependencies/widget.c dependencies/widget.h
-	gcc -c linklist.o dependencies/widget.c
+widget.o: widget.c widget.h
+	gcc -c linklist.o widget.c
 
-linklist.o: dependencies/linklist.c dependencies/linklist.h
-	gcc -c dependencies/linklist.c
+linklist.o: linklist.c linklist.h
+	gcc -c linklist.c
 clean:
 	rm linklist.o
 	rm widget.o
