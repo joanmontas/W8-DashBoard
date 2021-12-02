@@ -10,8 +10,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <signal.h>
-#include "dependencies/linklist.h"
-#include "dependencies/widget.h"
+#include "linklist.h"
+#include "widget.h"
 #include <time.h>
 #include <termios.h>
 #include <errno.h>
