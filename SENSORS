@@ -1,0 +1,8 @@
+Battery %  fd = open ("/sys/class/power_supply/BAT0/capacity", O_RDONLY);
+cpu in celcius * 1000 /sys/class/thermal/thermal_zone1/temp
+
+Wifi speed
+
+bluetooth
+
+
