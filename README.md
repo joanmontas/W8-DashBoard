@@ -4,7 +4,7 @@ The Vector 8 is an American sports car manufactured in the 80s. Inspired by its 
 
 **Early C Project**
 
-Written as one of my first C projects years ago, W8-DashBoard utilizes threads to create a dynamic terminal display.
+Written as one of my first C projects years ago (now making public), W8-DashBoard utilizes threads to create a dynamic terminal display.
 
 # Framework
 
